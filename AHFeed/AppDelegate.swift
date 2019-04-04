@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  AHCustomTransition
+//  AHFeed
 //
 //  Created by Andreas Hörberg on 2019-02-19.
 //  Copyright © 2019 Andreas Hörberg. All rights reserved.

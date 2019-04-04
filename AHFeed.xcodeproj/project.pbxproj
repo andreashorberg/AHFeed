@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA3F49F6224E0AAC00DE7042 /* AHListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F49F5224E0AAC00DE7042 /* AHListSection.swift */; };
 		BAAAD3DD221C8CCA00EC4A3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAAD3DC221C8CCA00EC4A3B /* AppDelegate.swift */; };
 		BAAAD3DF221C8CCA00EC4A3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAAD3DE221C8CCA00EC4A3B /* ViewController.swift */; };
 		BAAAD3E2221C8CCA00EC4A3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAAD3E0221C8CCA00EC4A3B /* Main.storyboard */; };
 		BAAAD3E4221C8CCB00EC4A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAAAD3E3221C8CCB00EC4A3B /* Assets.xcassets */; };
 		BAAAD3E7221C8CCB00EC4A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAAD3E5221C8CCB00EC4A3B /* LaunchScreen.storyboard */; };
+		BAAAD3EF221C916300EC4A3B /* AHCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAAD3EE221C916300EC4A3B /* AHCardView.swift */; };
+		BAAAD3F1221C982A00EC4A3B /* AHContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAAD3F0221C982A00EC4A3B /* AHContentView.swift */; };
+		BAAAD3F5221C9E1500EC4A3B /* AHContentPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAAD3F4221C9E1500EC4A3B /* AHContentPresentationController.swift */; };
+		BAAAD3F7221C9FBA00EC4A3B /* AHContentTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAAD3F6221C9FBA00EC4A3B /* AHContentTransitioningDelegate.swift */; };
+		BAAAD3F9221CA0FD00EC4A3B /* AHContentPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAAD3F8221CA0FD00EC4A3B /* AHContentPresentationAnimator.swift */; };
+		BAAAD3FB221CA28900EC4A3B /* AHContentDismissionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAAD3FA221CA28900EC4A3B /* AHContentDismissionAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BAAAD3D9221C8CCA00EC4A3B /* AHCustomTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHCustomTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3F49F5224E0AAC00DE7042 /* AHListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHListSection.swift; sourceTree = "<group>"; };
+		BAAAD3D9221C8CCA00EC4A3B /* AHFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAAD3DC221C8CCA00EC4A3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAAAD3DE221C8CCA00EC4A3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BAAAD3E1221C8CCA00EC4A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAAAD3E3221C8CCB00EC4A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAAAD3E6221C8CCB00EC4A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAAAD3E8221C8CCB00EC4A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAAD3EE221C916300EC4A3B /* AHCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHCardView.swift; sourceTree = "<group>"; };
+		BAAAD3F0221C982A00EC4A3B /* AHContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHContentView.swift; sourceTree = "<group>"; };
+		BAAAD3F4221C9E1500EC4A3B /* AHContentPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHContentPresentationController.swift; sourceTree = "<group>"; };
+		BAAAD3F6221C9FBA00EC4A3B /* AHContentTransitioningDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHContentTransitioningDelegate.swift; sourceTree = "<group>"; };
+		BAAAD3F8221CA0FD00EC4A3B /* AHContentPresentationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHContentPresentationAnimator.swift; sourceTree = "<group>"; };
+		BAAAD3FA221CA28900EC4A3B /* AHContentDismissionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHContentDismissionAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +52,7 @@
 		BAAAD3D0221C8CCA00EC4A3B = {
 			isa = PBXGroup;
 			children = (
-				BAAAD3DB221C8CCA00EC4A3B /* AHCustomTransition */,
+				BAAAD3DB221C8CCA00EC4A3B /* AHFeed */,
 				BAAAD3DA221C8CCA00EC4A3B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +60,12 @@
 		BAAAD3DA221C8CCA00EC4A3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BAAAD3D9221C8CCA00EC4A3B /* AHCustomTransition.app */,
+				BAAAD3D9221C8CCA00EC4A3B /* AHFeed.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BAAAD3DB221C8CCA00EC4A3B /* AHCustomTransition */ = {
+		BAAAD3DB221C8CCA00EC4A3B /* AHFeed */ = {
 			isa = PBXGroup;
 			children = (
 				BAAAD3DC221C8CCA00EC4A3B /* AppDelegate.swift */,
@@ -60,16 +74,23 @@
 				BAAAD3E3221C8CCB00EC4A3B /* Assets.xcassets */,
 				BAAAD3E5221C8CCB00EC4A3B /* LaunchScreen.storyboard */,
 				BAAAD3E8221C8CCB00EC4A3B /* Info.plist */,
+				BAAAD3EE221C916300EC4A3B /* AHCardView.swift */,
+				BAAAD3F0221C982A00EC4A3B /* AHContentView.swift */,
+				BAAAD3F4221C9E1500EC4A3B /* AHContentPresentationController.swift */,
+				BAAAD3F6221C9FBA00EC4A3B /* AHContentTransitioningDelegate.swift */,
+				BAAAD3F8221CA0FD00EC4A3B /* AHContentPresentationAnimator.swift */,
+				BAAAD3FA221CA28900EC4A3B /* AHContentDismissionAnimator.swift */,
+				BA3F49F5224E0AAC00DE7042 /* AHListSection.swift */,
 			);
-			path = AHCustomTransition;
+			path = AHFeed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BAAAD3D8221C8CCA00EC4A3B /* AHCustomTransition */ = {
+		BAAAD3D8221C8CCA00EC4A3B /* AHFeed */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BAAAD3EB221C8CCB00EC4A3B /* Build configuration list for PBXNativeTarget "AHCustomTransition" */;
+			buildConfigurationList = BAAAD3EB221C8CCB00EC4A3B /* Build configuration list for PBXNativeTarget "AHFeed" */;
 			buildPhases = (
 				BAAAD3D5221C8CCA00EC4A3B /* Sources */,
 				BAAAD3D6221C8CCA00EC4A3B /* Frameworks */,
@@ -79,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = AHCustomTransition;
+			name = AHFeed;
 			productName = AHCustomTransition;
-			productReference = BAAAD3D9221C8CCA00EC4A3B /* AHCustomTransition.app */;
+			productReference = BAAAD3D9221C8CCA00EC4A3B /* AHFeed.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,10 +117,11 @@
 				TargetAttributes = {
 					BAAAD3D8221C8CCA00EC4A3B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
-			buildConfigurationList = BAAAD3D4221C8CCA00EC4A3B /* Build configuration list for PBXProject "AHCustomTransition" */;
+			buildConfigurationList = BAAAD3D4221C8CCA00EC4A3B /* Build configuration list for PBXProject "AHFeed" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BAAAD3D8221C8CCA00EC4A3B /* AHCustomTransition */,
+				BAAAD3D8221C8CCA00EC4A3B /* AHFeed */,
 			);
 		};
 /* End PBXProject section */
@@ -135,8 +157,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAAAD3EF221C916300EC4A3B /* AHCardView.swift in Sources */,
+				BAAAD3F1221C982A00EC4A3B /* AHContentView.swift in Sources */,
+				BAAAD3F5221C9E1500EC4A3B /* AHContentPresentationController.swift in Sources */,
 				BAAAD3DF221C8CCA00EC4A3B /* ViewController.swift in Sources */,
+				BA3F49F6224E0AAC00DE7042 /* AHListSection.swift in Sources */,
 				BAAAD3DD221C8CCA00EC4A3B /* AppDelegate.swift in Sources */,
+				BAAAD3F7221C9FBA00EC4A3B /* AHContentTransitioningDelegate.swift in Sources */,
+				BAAAD3F9221CA0FD00EC4A3B /* AHContentPresentationAnimator.swift in Sources */,
+				BAAAD3FB221CA28900EC4A3B /* AHContentDismissionAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,14 +313,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PJL6N7ZC7;
-				INFOPLIST_FILE = AHCustomTransition/Info.plist;
+				INFOPLIST_FILE = AHFeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = se.imaginareal.AHCustomTransition;
+				PRODUCT_BUNDLE_IDENTIFIER = se.imaginareal.AHFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -302,14 +331,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PJL6N7ZC7;
-				INFOPLIST_FILE = AHCustomTransition/Info.plist;
+				INFOPLIST_FILE = AHFeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = se.imaginareal.AHCustomTransition;
+				PRODUCT_BUNDLE_IDENTIFIER = se.imaginareal.AHFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -317,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BAAAD3D4221C8CCA00EC4A3B /* Build configuration list for PBXProject "AHCustomTransition" */ = {
+		BAAAD3D4221C8CCA00EC4A3B /* Build configuration list for PBXProject "AHFeed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BAAAD3E9221C8CCB00EC4A3B /* Debug */,
@@ -326,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BAAAD3EB221C8CCB00EC4A3B /* Build configuration list for PBXNativeTarget "AHCustomTransition" */ = {
+		BAAAD3EB221C8CCB00EC4A3B /* Build configuration list for PBXNativeTarget "AHFeed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BAAAD3EC221C8CCB00EC4A3B /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AHCustomTransition.xcodeproj">
+      location = "self:/Users/andreashorberg/Documents/Development/AHCustomTransition/AHFeed.xcodeproj">
    </FileRef>
 </Workspace>
